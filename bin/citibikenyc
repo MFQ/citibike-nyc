@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'citibikenyc'
+puts Citibikenyc.hi
