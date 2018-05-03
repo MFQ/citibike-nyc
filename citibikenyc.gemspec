@@ -8,7 +8,8 @@ Gem::Specification.new do |s|
   s.executables << 'citibikenyc'
   s.email       = 'softmfq@gmail.com'
   s.files       = ["lib/citibikenyc.rb"]
-  s.homepage    =
-    'http://rubygems.org/gems/citibikenyc'
+  s.homepage    = 'http://rubygems.org/gems/citibikenyc'
   s.license       = 'MIT'
+  s.add_runtime_dependency 'multi_json', '~> 1.13.1'
+  s.add_runtime_dependency 'faraday', '~> 0.15.0'
 end
