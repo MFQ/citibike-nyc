@@ -1,6 +1,6 @@
 require_relative 'constants'
 
-class FeedEndpoint
+class Feed
   attr_reader :name, :url
 
   def initialize
@@ -9,7 +9,8 @@ class FeedEndpoint
 
   def initialize(name, url)
     @name = name
-    @url = url.slice(Constants[:service_name])
+    @url = url
+    @url.slice!(Citibikenyc::Constants[:service_name])
   end
 
 end
