@@ -9,7 +9,7 @@ require_relative '../lib/citibikenyc/region'
 class CitibikenycTest < Minitest::Test
 
   def setup
-    @api = Citibikenyc::ApiClient.new
+    @api = Citibikenyc::Api.new
   end
 
   def test_init

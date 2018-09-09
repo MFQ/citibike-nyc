@@ -7,7 +7,7 @@ require_relative 'region'
 require_relative 'constants'
 
 module Citibikenyc
-  class ApiClient
+  class Api
 
     attr_reader :client, :response, :feeds, :station_status, :station_information, :system_regions, :system_information, :system_alerts
 
