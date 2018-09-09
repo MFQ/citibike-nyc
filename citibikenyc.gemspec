@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
-  s.name        = 'citibikenyc'
-  s.version     = '0.0.1'
+  s.name        = 'citibike-nyc'
+  s.version     = '0.0.2'
   s.date        = '2018-04-28'
   s.summary     = "Citibikenyc!"
   s.description = "Citibikenyc is an API Client"
